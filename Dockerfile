@@ -1,6 +1,6 @@
-FROM fedora
+FROM ubuntu
 MAINTAINER James Wang
-ADD ./bitcoin-0.9.0-linux.tar.gz /bitcoin
+ADD ./bitcoin-0.9.1-linux.tar.gz /bitcoin
 RUN mkdir /root/.bitcoin
 ADD ./bitcoin.conf /.bitcoin/bitcoin.conf
 ADD ./start.sh /start.sh

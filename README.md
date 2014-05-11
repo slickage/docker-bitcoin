@@ -8,7 +8,7 @@ Install Docker on Linux, OS X or Windows. Read "[Getting started](https://www.do
 ```
 $ git clone http://github.com/slickage/docker-bitcoin.git
 $ cd docker-bitcoin
-$ curl -O https://bitcoin.org/bin/0.9.0/bitcoin-0.9.0-linux.tar.gz
+$ curl -O https://bitcoin.org/bin/0.9.1/bitcoin-0.9.1-linux.tar.gz
 $ sudo docker build -t bitcoind .
 ```
 
